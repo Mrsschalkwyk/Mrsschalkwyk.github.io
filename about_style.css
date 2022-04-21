@@ -4,18 +4,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
 
+
+
+
+/* HEADING*/
+
+head{
+  margin: 3vh;
+
+}
+
+.text{
+  margin:5rem;
+  padding:1em;
+  font-family: 'Roboto', sans-serif;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 1vh;
+}
+
+.text h1{
+  color:#c0c0c0 ;
+  font-size: 110px;
+  font-weight: 800;
+  text-transform: ;
+  letter-spacing: 10px;   
+  text-shadow: 3px 3px 6px #767878, -3px -3px 6px #dcdcdc;
+}
+
 /* BODY WORK*/
+
+
 
 body{
   display: flex;
-  background-color: silver;
+  background-color: #c0c0c0;
+  
 }
 
 /* SIDE NAV BAR*/
 
 ul{
   list-style: none;
-  margin: 0;
   padding:0;
 }
 
@@ -42,7 +73,7 @@ button,input{
   position: fixed;
   width: 80px;
   height: 80vh;
-  color: lightskyblue;
+  color: rgb(251, 239, 239);
   z-index: 10;
 
 }
@@ -53,7 +84,9 @@ button,input{
   position: fixed;
   transform: rotate(-90deg) translateX(-100%);
   transform-origin: left top;
-  width: 58vh;}
+  width: 90vh;
+  margin-left: -30vw;
+}
 
 
 .menu{
@@ -63,13 +96,12 @@ button,input{
 .nav_list {
   display:flex;
   flex-direction: row-reverse;
-  margin: 12px  0 ;
 }
 
 .nav_link{
-  height:90%;
+  height:30%;
   line-height: 100px;
-  padding:0 1rem;
+  padding:3rem;
   color: rgb(252, 252, 200);
   font-size: 2rem;
   position: relative;
@@ -84,58 +116,76 @@ button,input{
 }
 
 .glass-wrapper{
+
   display: flex;
-  
-  margin-top: 13vh;
-  margin-left: 30vw;
-  z-index:5
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ justify-content: space-around;
 }
 
 .decor-1{
- display: flex;
-  height: 80vh;
-  width: 24vw;
-  margin-top: 5vh;
-  margin-left: 0vw;
-  z-index: -10;
-  top: 50;
-  background: rgb(148,247,236);
-background: linear-gradient(42deg, rgba(148,247,236,1) 0%, 
-rgba(247,186,247,1) 50%, rgba(250,206,145,0.5102634803921569) 80%);
-backdrop-filter: blur(40px) saturate(0%);
-border: 1px solid white 10;
-border-radius: 50px;
--webkit-backdrop-filter: blur(200);
-box-shadow:whitesmoke 20px;
+background-color: #ca9494;
+border: solid 3px white;
+height:300px;
+width: 300px;
+margin-top: 32vh;
+margin-left:-20vw;
+border-radius: 150px 1px 150px ;
+
 }
 
 .decor-2{
+  background-color: #a3a9c8;
+  border: solid 3px white;
+  height:300px;
+  width: 300px;
+  margin-top: 32vh;
+  margin-left:1vw;
 
-  height: 90vh;
-  width: 24vw;
-  margin-left: -3vw;
-margin-top: 1vh;
-  z-index: -6;
-background-color: antiquewhite;
-backdrop-filter: blur(100%);
-border: 1px solid bisque;
-border-radius: 10px;
--webkit-backdrop-filter: blur(100%));
-box-shadow: -10px -10px 10px #grey, 7px 7px 10px rgba(250,206,145,0.5102634803921569);
+  border-radius: 150px 0px 150px ;
 }
 
 .decor-3{
- margin-left: -43vw;
- margin-top: 25vh;
-  height: 30vh;
-  width: 30vw;
-  backdrop-filter: blur(40px) saturate(200%);
-border: 1px solid white 10;
-border-radius: 50px;
--webkit-backdrop-filter: blur(20);
-box-shadow: 20px;
-  background: rgb(148,247,236);
-  background: linear-gradient(324deg, rgba(148,247,236,1) 0%, rgba(247,186,247,1) 50%, rgba(250,206,145,0.5102634803921569) 100%);
-    z-index: 2;
 
+  background-color: #c8bda3;
+  border: solid 3px white;
+  height:300px;
+  width: 300px;
+  border-radius: 150px 0px 150px ;
+  margin-top: 32vh;
+margin-left: 1vw;
+}
+
+#p1{
+  padding: 60px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+#p2{
+  padding: 60px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}#p3{
+  padding: 60px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.profile{
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  width: 200px;
+  margin-top: 6vh;
+  margin-left: 7vw;
+  border-radius:100px 0px 100px  ;
+  border: saddlebrown solid 3px;
 }

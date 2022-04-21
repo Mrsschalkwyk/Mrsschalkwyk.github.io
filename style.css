@@ -185,15 +185,15 @@ transition:1.5s;
 
 .container {
   display: flex;
-  justify-content: center;
+justify-content: space-around;
   align-items:center;
   background: #bad9d7;
   position: relative;
   z-index: -5;
 }
 .neumorphism-1 {
-  height: 100px;
-  width: 100px;
+  height: 130px;
+  width: 130px;
   background: #bad9d7;
   border-radius: 7px;
   box-shadow: -10px -10px 10px #bfe2e0, 7px 7px 10px #93b8b7;
@@ -204,12 +204,12 @@ position: relative;
 
 .neumorphism-1::after{
 content:"" ;
-height: 100px;
-width: 100px;
+height: 130px;
+width: 130px;
 border-radius: 50%;
 background: #bad9d9;
-top: -18px;
-left: 0px;
+top: -50px;
+left: -3px;
 box-shadow: -0px -13px 10px #bfe2e0, 0px 0px 0px #93b8b7;
 position: absolute;
 }
@@ -217,12 +217,12 @@ position: absolute;
 
 .neumorphism-1::before{
 content:"" ;
-height: 100px;
-width: 100px;
+height: 130px;
+width: 130px;
 border-radius: 50%;
 background: #bad9d9;
-top: 0px;
-right: -80px;
+top:5px;
+right: -58px;
 box-shadow: -10px 10px 60px #bad9d9, 6px -10px 20px #93b8b7;
 position: absolute;
 }
@@ -272,15 +272,13 @@ inset 13px 13px 16px #93b8b7;
   align-items: center;
 }
 
-.html-img{
-  height: 100px;
-  width: 100px;
-  flex-wrap: wrap;
-  flex-direction: row;
+.html{
+  
+display: flex;
   justify-content: center;
-  justify-content: space-around;
   align-items: center;
- 
+  margin-top: -10vh;
+ margin-left: 0vw;
 }
 
 
