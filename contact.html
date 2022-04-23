@@ -9,13 +9,13 @@
         </style>
 
 <!--MAIN CSS-->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="contact.css">
 
     <title>MrsSchalkwyk</title>
 
  <!--Heading-->
 <div class="text">
-    <h1>donna-mari</h1>
+    <h1>.contact</h1>
 </div>
 
 <nav>
@@ -33,7 +33,7 @@
                 <div class="menu">
                     <ul class="nav_list">
                         <li class="nav_item">
-                            <a href="#home" class="nav_link active-link">home</a>
+                            <a href="index.html" class="nav_link active-link">home</a>
                         </li> <li class="nav_item">
                             <a href="about.html" class="nav_link">about</a>
                         </li> <li class="nav_item">
@@ -58,17 +58,25 @@
 </head>
 
 <body>
+<div class="form">
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+        <fieldset id="fs-frm-inputs">
+          <label for="full-name">Full Name</label>
+          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+          <label for="email-address">Email Address</label>
+          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+          <label for="message">Message</label>
+          <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
 
-    <!--CARDs-->
-<div class="wrapper">
-    <div class="demo-div" id="div-1" >
-<a href="https://github.com/Mrsschalkwyk">CODE</a>
 
-    </div>
-    <div class="demo-div" id="div-2">WEB</div>
-    <div class="demo-div" id="div-3">PROJECTS</div>
- 
-    </div>
+
+<input type="submit" value="Submit">
+        
+      </form>
+      </div>
+
 <footer>
 
         <!--decor-shapes-->
