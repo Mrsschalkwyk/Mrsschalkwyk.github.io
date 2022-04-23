@@ -17,7 +17,7 @@ body{
   background-color: #bad9d7 ;
 
 }
-/* Card Button */
+
 /* HEADING*/
 .text{
   margin:1rem;
@@ -229,7 +229,7 @@ box-shadow: inset 41px 41px 82px #9eb8b7,
           appearance: button;
         }
 
-}
+
 .confetti{
     width: 200px;
     position: absolute;
