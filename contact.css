@@ -431,27 +431,52 @@ display: flex;
 
 
 
-/* PROFILE PICTURE*/
-
 
 /*========== RESPONSIVE TYPOGRAPHY==========*/
-@media screen and (max-width:1024px){
+@media screen and (max-width:700px){
     
-}
+
 
 /*========== BREAKPOINTS ==========*/
-/* For Large Devices */
-@media screen and (max-width: 1408px) {}
 
-@media screen and (max-width: 1216px) {}
 
-@media screen and (max-width: 1024px) {}
+body{
 
-/* For Medium Devices */
-@media screen and (max-width: 768px) {}
+  margin-top: 20%;
+}
+  .text{
+  font-weight: 1rem;}
 
-@media screen and (max-width: 576px) {}
+  .demo-div{
+    min-width: 8rem;
+    
+    margin: 5rem;
+    border-radius: 1.25px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    
+    border-radius: 50px;
+    background: #bad9d7;
+    box-shadow:  18px 18px 36px #93b8b7,
+                 -18px -18px 36px #d6faf7;
+    text-align: center;
+    
+    line-height: 90px;
+    
+    color: rgb(252, 252, 200);
+    font-size: 2rem;
+    position: relative;
+    transition:1.5s;
+    }
 
+    /* SIDE NAV BAR*/
+ul{
+  align-items: flex-end;
+}
+}
 /* For Small Devices */
-@media screen and (max-width: 350px) {}
-
+@media screen and (max-width: 350px) {
+  
+}

@@ -117,7 +117,7 @@ button,input{
 
 /* ACTIVE-LINK*/
 
-.nav_link.active-link, .nav_link:hover{
+.nav_link:hover{
   color: rgb(135, 137, 244);
 }
 
@@ -207,3 +207,32 @@ font-family: 'Quicksand', sans-serif;
 
 }
 
+
+/*========== BREAKPOINTS ==========*/
+@media screen and (max-width:700px){
+    
+body{
+
+}
+  .text{
+  font-weight: 1rem;}
+
+  .profile{
+    display: flex;
+    margin-top: 12vh;
+  margin-left: 40vw; 
+    height: 250px;
+    width: 200px;
+    border-radius:150px ;
+    border: rgb(250, 248, 247) solid 3px;
+    box-shadow:  41px 41px 67px #9eb8b7,
+               -41px -41px 67px #d6faf7;
+               z-index: 8;
+  }
+
+
+}
+/* For Small Devices */
+@media screen and (max-width: 350px) {
+  
+}
