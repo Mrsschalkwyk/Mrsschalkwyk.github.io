@@ -3,9 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-head{
-  height:10rem;
-}
+
 
 /* BODY WORK*/
 
@@ -41,6 +39,7 @@ body{
 
 
 /* CARDS*/
+
 
 
 
@@ -103,19 +102,18 @@ button,input{
   height:90%;
   line-height: 100px;
   padding:0 1rem;
-  color: rgb(252, 252, 200);
-  font-size: 2rem;
+  color:azure;
+  font-size: 2.5rem;
   position: relative;
-  transition:1.5s;
+  transition:1s;
 }
 
 
 /* ACTIVE-LINK*/
 
 .nav_link.active-link, .nav_link:hover{
-  color: rgb(135, 137, 244);}
-
-
+  color: rgb(135, 137, 244);
+}
 
 
 
@@ -124,25 +122,6 @@ button,
 input, {
 font-family:    font-family: 'Playfair Display', serif;
 
-}
-
-.text{
-  margin:1em;
-  padding:1em;
-  font-family: 'Roboto', sans-serif;
- display: flex;
- align-items: center;
- justify-content: center;
- height: 10vh;
-}
-
-.text h1{
-  color:#bad9d7 ;
-  font-size: 110px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 10px;   
-  text-shadow: 3px 3px 6px #93b8b7, -3px -3px 6px #d6faf7;
 }
 
 
@@ -263,22 +242,7 @@ box-shadow: inset -3px -3px 10px #ffffff73,
 inset 13px 13px 16px #93b8b7;
 }
 
-/* LOTTIE ANIMATION*/
 
-.lottie-1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.html{
-  
-display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -10vh;
- margin-left: 0vw;
-}
 
 
 
@@ -293,18 +257,44 @@ display: flex;
 }
 
 /*========== BREAKPOINTS ==========*/
-/* For Large Devices */
-@media screen and (max-width: 1408px) {}
 
-@media screen and (max-width: 1216px) {}
 
-@media screen and (max-width: 1024px) {}
+body{
 
-/* For Medium Devices */
-@media screen and (max-width: 768px) {}
+  margin-top: 20%;
+}
+  .text{
+  font-weight: 1rem;}
 
-@media screen and (max-width: 576px) {}
+  .demo-div{
+    min-width: 8rem;
+    
+    margin: 5rem;
+    border-radius: 1.25px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    
+    border-radius: 50px;
+    background: #bad9d7;
+    box-shadow:  18px 18px 36px #93b8b7,
+                 -18px -18px 36px #d6faf7;
+    text-align: center;
+    
+    line-height: 90px;
+    
+    color: rgb(252, 252, 200);
+    font-size: 2rem;
+    position: relative;
+    transition:1.5s;
+    }
 
+    /* SIDE NAV BAR*/
+ul{
+  align-items: flex-end;
+}
+}
 /* For Small Devices */
 @media screen and (max-width: 350px) {}
 

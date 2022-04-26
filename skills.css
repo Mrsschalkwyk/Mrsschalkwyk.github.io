@@ -1,0 +1,182 @@
+
+/*GOODLE-FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+
+/* BODY WORK*/
+
+body{
+  height: 100%;
+  width: 100%;
+  
+  font-family: 'Playfair Display', serif;
+ 
+  background-color: #bad9d7 ;
+
+}
+/* Card Button */
+/* HEADING*/
+.text{
+  margin:10%;
+  padding:1em;
+  font-family: 'Roboto', sans-serif;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 1vh;
+}
+
+.text h1{
+  color:#bad9d7 ;
+  font-size: 110px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 10px;   
+  text-shadow: 3px 3px 6px #93b8b7, -3px -3px 6px #d6faf7;
+}
+
+
+/* CARDS*/
+
+
+/* SIDE NAV BAR*/
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding:0;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(252, 252, 200);
+  
+}
+
+
+
+button{
+  cursor: pointer;
+}
+button,input{
+  border: none;
+  outline: none;
+}
+
+
+
+/* SIDE NAV BAR*/
+.sidebar{
+  position: fixed;
+  width: 80px;
+  height: 80vh;
+  color: lightskyblue;
+  z-index: 10;
+
+}
+
+
+/* SIDE NAV BAR*/
+.nav_menu{
+  position: fixed;
+  transform: rotate(-90deg) translateX(-100%);
+  transform-origin: left top;
+  width: 58vh;}
+
+
+.menu{
+  display: flex;
+}
+
+.nav_list {
+  display:flex;
+  flex-direction: row-reverse;
+  margin: 12px  0 ;
+}
+
+.nav_link{
+  height:90%;
+  line-height: 100px;
+  padding:0 1rem;
+  color:azure;
+  font-size: 2.5rem;
+  position: relative;
+  transition:1s;
+}
+
+
+/* ACTIVE-LINK*/
+
+.nav_link.active-link, .nav_link:hover{
+  color: rgb(135, 137, 244);
+}
+
+
+
+
+
+
+button,
+input, {
+font-family:    font-family: 'Playfair Display', serif;
+
+}
+
+
+
+.wrapper{
+  margin: 10%;
+  padding: 0rem;
+  flex-wrap: wrap;
+  display: flex;
+  background-color: #bad9d7;
+
+}
+
+.demo-div{
+min-width: 5rem;
+
+margin: 1rem;
+border-radius: 1.25px;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+
+border-radius: 50px;
+background: #bad9d7;
+box-shadow:  18px 18px 36px #93b8b7,
+             -18px -18px 36px #d6faf7;
+text-align: center;
+
+line-height: 90px;
+
+color: rgb(252, 252, 200);
+font-size: 2rem;
+position: relative;
+transition:1.5s;
+}
+
+/* DECOR-SHAPES*/
+
+
+
+/* LOTTIE ANIMATION*/
+
+.lottie-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* LOTTIE ANIMATION*/
+
+.html{
+  
+display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10vh;
+ margin-left: 0vw;
+}
+
