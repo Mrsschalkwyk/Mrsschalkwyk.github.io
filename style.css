@@ -110,8 +110,7 @@ button,input{
 
 
 /* ACTIVE-LINK*/
-
-.nav_link.active-link, .nav_link:hover{
+ .nav_link:hover{
   color: rgb(135, 137, 244);
 }
 
@@ -252,7 +251,7 @@ inset 13px 13px 16px #93b8b7;
 
 
 /*========== RESPONSIVE TYPOGRAPHY==========*/
-@media screen and (max-width:1024px){
+@media screen and (max-width:700px){
     
 }
 
@@ -296,5 +295,7 @@ ul{
 }
 }
 /* For Small Devices */
-@media screen and (max-width: 350px) {}
+@media screen and (max-width: 350px) {
+  
+}
 

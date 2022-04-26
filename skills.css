@@ -8,8 +8,6 @@
 /* BODY WORK*/
 
 body{
-  height: 100%;
-  width: 100%;
   
   font-family: 'Playfair Display', serif;
  
@@ -19,13 +17,11 @@ body{
 /* Card Button */
 /* HEADING*/
 .text{
-  margin:10%;
-  padding:1em;
+
   font-family: 'Roboto', sans-serif;
  display: flex;
  align-items: center;
  justify-content: center;
- height: 1vh;
 }
 
 .text h1{
@@ -45,8 +41,8 @@ body{
 
 ul{
   list-style: none;
-  margin: 0;
-  padding:0;
+  margin: 1%;
+  padding:1%;
 }
 
 a{
@@ -109,7 +105,7 @@ button,input{
 
 /* ACTIVE-LINK*/
 
-.nav_link.active-link, .nav_link:hover{
+.nav_link:hover{
   color: rgb(135, 137, 244);
 }
 
@@ -176,7 +172,53 @@ transition:1.5s;
 display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -10vh;
+  margin-top: 20vh;
  margin-left: 0vw;
 }
 
+
+/*========== RESPONSIVE TYPOGRAPHY==========*/
+@media screen and (max-width:700px){
+    
+}
+
+/*========== BREAKPOINTS ==========*/
+
+
+
+  .text{
+  font-weight: 1rem;}
+
+  .demo-div{
+    min-width: 8rem;
+    
+    margin: 5rem;
+    border-radius: 1.25px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    
+    border-radius: 50px;
+    background: #bad9d7;
+    box-shadow:  18px 18px 36px #93b8b7,
+                 -18px -18px 36px #d6faf7;
+    text-align: center;
+    
+    line-height: 90px;
+    
+    color: rgb(252, 252, 200);
+    font-size: 2rem;
+    position: relative;
+    transition:1.5s;
+    }
+
+    /* SIDE NAV BAR*/
+ul{
+  align-items: flex-end;
+}
+}
+/* For Small Devices */
+@media screen and (max-width: 350px) {
+  
+}
