@@ -19,7 +19,7 @@ body{
 /* Card Button */
 /* HEADING*/
 .text{
-  margin:1rem;
+  margin:0.3rem;
   padding:1em;
   font-family: 'Roboto', sans-serif;
  display: flex;
@@ -30,10 +30,10 @@ body{
 
 .text h1{
   color:#bad9d7 ;
-  font-size: 110px;
-  font-weight: 800;
+  font-size: 90px;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 10px;   
+  letter-spacing: 5px;   
   text-shadow: 3px 3px 6px #93b8b7, -3px -3px 6px #d6faf7;
 }
 
