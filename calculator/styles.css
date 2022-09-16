@@ -11,7 +11,31 @@ body {
 
 }
 
+
+.text{
+    margin:2rem;
+    padding:1em;
+    font-family: 'Roboto', sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 1vh;
+  }
+  
+  .text h1{
+    color:#e0e0e0; ;
+    font-size: 90px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 5px;   
+    text-shadow: 3px 3px 6px #9fa8a7, -3px -3px 6px #fbfefd;
+  }
+
+
+
+
 .wrapper {
+    margin-top: 3rem;
     width: 20rem;
     height:20rem;
     padding: 4rem;
