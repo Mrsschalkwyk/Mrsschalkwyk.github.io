@@ -1,0 +1,81 @@
+body {
+    background: #e0e0e0;
+    font-family: sans-serif;
+    color: #031d01;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.wrapper {
+    width: 20rem;
+    height:20rem;
+    padding: 4rem;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+}
+
+.wrapper p {
+    font-size: 1rem;
+}
+
+#firstNumber{
+    font-family: 'Heebo', sans-serif;
+
+    margin-top:1rem;
+    padding:20px;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5px;
+    border-style: none;
+
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 7px 7px 14px #bebebe,
+                inset -7px -7px 14px #ffffff;
+}
+
+
+
+button{
+    padding:20px;
+}
+input[type="button"] {
+    font-family: 'Heebo', sans-serif;
+
+    margin-top: 20px;
+    padding: 2px;
+    font-size: 1.5rem;
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+    border-style: none;
+
+background: linear-gradient(145deg, #e9e6e6, #c4c2c2);
+box-shadow:  7px 7px 14px #b9b7b7,
+             -7px -7px 14px #fbf7f7;
+}
+
+input[type="button"]:hover {
+    box-shadow: 0px 0px 5px #062e03;
+}
+
+.note{
+    font-family: 'Heebo', sans-serif;
+
+    justify-content: center;
+    margin:5rem;
+    padding-top: 30px;
+    width: 30rem;
+    height:5rem;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f9f7f7, #d2d0d0);
+    box-shadow:  15px 15px 30px #c6c4c4,
+                 -15px -15px 30px #ffffff;
+}
